@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+
+section {
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    padding: 115px 52px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    margin: 0 0 10px 0;
+}
+
+span {
+    color: #4ADF86;
+}
+
+.tagline {
+    color: lightgrey;
+    font-size: 22px;
+    margin: 0 0 40px 0; 
+    
+}
+
+.generate-btn {
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background: #10B981;
+    padding: 12px 10px;
+    font-size: 16px;
+    font-weight: 100;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px ;
+    transition: background 0.2s ease;
+    cursor: pointer;
+    
+}
+
+.generate-btn:hover {
+    background: hsl(143, 92%, 15%);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #2F3E53;
+    margin-bottom: 30px;
+}
+
+.password-output {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.password-box {
+    box-sizing: border-box;
+    background: #273549;
+    color: #55F991;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 30px;
+    text-align: center;
+    flex: 1;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+    
+}
+
+.password-box:hover {
+    background: #4c5e76;
+}
